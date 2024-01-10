@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, ul {
+    display: flex; 
+    justify-content: center; 
+}
+
+h1, .copyright {
+    font-family: 'Times New Roman', Times, serif;  
+} 
+
+header {
+    background-image: url("https://kartinkis.cdnbro.com/posts/557816-fony-dlia-studii-novostei-6.jpg");
+    height: 400px;
+    background-size: cover;
+    align-items: center;
+}
+
+h1 {
+    color:#c6be94;
+    font-size: 4rem;
+}
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a, footer a {
+    text-decoration: none;
+}
+
+article a, article a:link {
+    color: rgb(33, 37, 41);
+}
+
+article a:hover, 
+footer a:hover {
+    color: #0085a1;  
+}
+
+article a:active,
+footer a:active {
+	color: blue;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+article:nth-child(even) {
+	background-color:beige;
+}
+
+.new::before {
+	content: 'New ';
+    color: red;
+} 
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.article-meta {
+    color: rgb(132, 150, 167);
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 50px;
+    flex-direction: row;  
+}
+
+footer a {
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+footer a, 
+footer a:link {
+	color:#636b6f;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+}
